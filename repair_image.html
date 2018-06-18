@@ -1,15 +1,38 @@
 <html>
 
 <head>
+    <style type="text/css">
+        div {
+            width: 150px;
+            height: 150px;
+            border: 1px solid;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <img class="brokenImage" src="http://google.com/hogehoge.jpg" />
-    <img class="brokenImage" src="http://google.com/fugafuga.jpg" />
-    <img class="brokenImage" src="https://4.bp.blogspot.com/-D5kKrMBiFxM/VMIt1KJ0L4I/AAAAAAAAqy8/rTn6p9VyVFY/s400/onigiri_maru.png"
-    />
-    <img class="normalImage" src="https://2.bp.blogspot.com/-Hr4qJ60inkA/WvQHrreg1yI/AAAAAAABL8k/AU10QMNgi54pYyt-i-ttCtDnEK2Ln-m_wCLcBGAs/s800/network_dennou_sekai_man.png"
-    />
+    <!--存在しない画像-->
+    <div>
+        <img class="brokenImage" src="http://google.com/hogehoge.jpg" />
+    </div>
+    <div>
+        <img class="brokenImage" src="http://google.com/fugafuga.jpg" />
+    </div>
+    <!--存在する画像-->
+    <div>
+        <img class="brokenImage" src="https://3.bp.blogspot.com/-rNmXJXzt8DQ/VsPnSNB6MzI/AAAAAAAA4Dw/GOIgFy4n2ls/s180-c/music_sakkyoku_piano_man.png"
+        />
+    </div>
+    <div>
+        <img class="normalImage" src="https://2.bp.blogspot.com/-lAIFjv3ejHg/WEztKOlwR-I/AAAAAAABAUU/d9sJUl9xolIAaodsAHmZQFVj_7wkqpSmQCLcB/s400/ai_music.png"
+        />
+    </div>
+
 </body>
 
 </html>
